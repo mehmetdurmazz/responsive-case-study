@@ -6,20 +6,20 @@ Here are some screenshots in different width sizes.
 
 **1125px**
 
-![picture](screenshots/1125.jpg)
+![Alt text](screenshots/1125.jpg)
 
 
 **940px**
 
-![picture](screenshots/940.jpg)
+![Alt text](screenshots/940.jpg)
 
 
 **700px**
 
-![picture](screenshots/700.jpg)
+![Alt text](screenshots/700.jpg)
 
 
 **400px**
 
-![picture](screenshots/400.jpg)
+![Alt text](screenshots/400.jpg)
 
