@@ -1,4 +1,4 @@
-# ResponsiveCaseStudy
+## Responsive Case Study
 
 A case study to comprehend Responsive Web Design Fundamentals used by only CSS and HTML.
 
