@@ -1,0 +1,125 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url("backgroundImage.jpeg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.left {
+    float: left;
+    width: 40%;
+    height: 100%;
+    
+}
+.leftSideBackground{
+    background: rgba(242, 243, 244, .4);
+}
+
+.textArea {
+    margin: 5%;
+    font-family: 'Varela Round', sans-serif;
+    color: black;
+}
+.right {
+    float: right;
+    width: 60%;
+    height: 100%;
+}
+
+.squareBorder {
+    height: 80%;
+    position: relative;
+    margin: 10% 15% 5% 15%;
+}
+
+.firstSquare, .secondSquare, .thirdSquare, .fourthSquare, .fifthSquare {
+    border: 2px solid white;
+
+}
+.firstSquare {
+    position: absolute;
+    width: 34%;
+    height: 33%;
+    left: 33%;
+}
+
+.secondSquare {
+    position: absolute;
+    width: 33%;
+    height: 33%;
+    top: 33%;
+}
+
+.thirdSquare {
+    position: absolute;
+    width: 34%;
+    height: 33%;
+    top: 33%;
+    left: 33%;
+}
+
+.fourthSquare {
+    position: absolute;
+    width: 33%;
+    height: 33%;
+    top: 33%;
+    left: 67%;
+}
+
+.fifthSquare {
+    position: absolute;
+    width: 34%;
+    height: 34%;
+    left: 33%;
+    top: 66%;
+}
+
+@media screen and (max-width: 550px) {
+    .left {
+        height: 50%;
+        width: 100%;
+    }
+    .right {
+        width: 100%;
+        height: 50%;
+    }
+    .textArea {
+        font-size: small;
+    }
+}
+
+@media only screen and (min-width: 551px) and (max-width: 740px) {
+    .left {
+        height: 40%;
+        width: 100%;
+    }
+    .textArea {
+        margin: 3%;
+        font-size: small;
+    }
+    .right {
+        width: 100%;
+        height: 60%;
+    }
+    .squareBorder {
+        width: 40%;
+        height: 60%;
+        left: 17%
+    }
+
+    @media screen and (max-width: 960px) {
+        .squareBorder {
+            height: 80%;
+            margin: 10%;
+            position: relative;
+        }
+    }
+    
+    
+}
