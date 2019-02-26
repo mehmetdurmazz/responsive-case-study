@@ -40,24 +40,21 @@ body {
 
 .firstSquare, .secondSquare, .thirdSquare, .fourthSquare, .fifthSquare {
     border: 2px solid white;
-
+    position: absolute;
 }
 .firstSquare {
-    position: absolute;
     width: 34%;
     height: 33%;
     left: 33%;
 }
 
 .secondSquare {
-    position: absolute;
     width: 33%;
     height: 33%;
     top: 33%;
 }
 
 .thirdSquare {
-    position: absolute;
     width: 34%;
     height: 33%;
     top: 33%;
@@ -65,7 +62,6 @@ body {
 }
 
 .fourthSquare {
-    position: absolute;
     width: 33%;
     height: 33%;
     top: 33%;
@@ -73,7 +69,6 @@ body {
 }
 
 .fifthSquare {
-    position: absolute;
     width: 34%;
     height: 34%;
     left: 33%;
